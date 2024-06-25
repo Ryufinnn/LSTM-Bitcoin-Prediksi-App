@@ -1,0 +1,14 @@
+button[title="Stop"], button[title="Rerun"] {
+    display: none;
+}
+
+.stStatusWidget p {
+    visibility: hidden;
+    position: relative;
+}
+.stStatusWidget p:before {
+    content: 'Memuat';
+    visibility: visible;
+    position: absolute;
+    left: 0;
+}
